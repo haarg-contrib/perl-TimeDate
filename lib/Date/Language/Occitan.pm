@@ -1,8 +1,8 @@
 ##
-## French tables, contributed by Emmanuel Bataille (bem@residents.frmug.org)
+## Occitan tables, contributed by Quentn PAGÈS
 ##
 
-package Date::Language::French;
+package Date::Language::Occitan;
 
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
