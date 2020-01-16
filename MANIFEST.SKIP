@@ -1,5 +1,5 @@
 MANIFEST.SKIP
-^\.git/
+^\.git
 .gitignore
 blib\b
 cover_db
@@ -12,3 +12,5 @@ cover_db
 ^arch.txt$
 ^TimeDate-
 ^_dev
+^MYMETA.json
+^MYMETA.yml
