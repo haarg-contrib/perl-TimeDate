@@ -8,6 +8,7 @@ cover_db
 \.bak$
 \.bs$
 \.[oc]$
+\.tar\.gz$
 ^arch.txt$
 ^TimeDate-
 ^_dev
