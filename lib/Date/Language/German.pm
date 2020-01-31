@@ -14,6 +14,7 @@ use Date::Language::English ();
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: German localization for Date::Format
 
 our @MoY  = qw(Januar Februar März April Mai Juni
 	   Juli August September Oktober November Dezember);

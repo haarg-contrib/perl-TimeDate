@@ -13,6 +13,7 @@ use utf8;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Finnish localization for Date::Format
 
 # In Finnish, the names of the months and days are only capitalized at the beginning of sentences.
 our @MoY  = map($_ . "kuu", qw(tammi helmi maalis huhti touko kesä heinä elo syys loka marras joulu));

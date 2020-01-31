@@ -7,7 +7,9 @@ package Date::Language::Gedeo;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Gedeo localization for Date::Format
 
 @DoW = qw( Sanbbattaa Sanno Masano Roobe Hamusse Arbe Qiddamme);
 @MoY = (
