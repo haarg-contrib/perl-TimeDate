@@ -4,11 +4,13 @@ package Date::Language;
 use     strict;
 use     Time::Local;
 use     Carp;
-use     vars qw($VERSION @ISA);
+
 require Date::Format;
 
 # VERSION: generated
-@ISA     = qw(Date::Format::Generic);
+# ABSTRACT: Language specific date formating and parsing
+
+use base qw(Date::Format::Generic);
 
 sub new
 {
