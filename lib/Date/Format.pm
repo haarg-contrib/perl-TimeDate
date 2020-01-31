@@ -48,9 +48,12 @@ Date::Format - Date formating subroutines
 	
 	my @lt = localtime(time);
 	
+	my $template = "....";
+
 	print time2str($template, time);
 	print strftime($template, @lt);
 	
+	my $zone;
 	print time2str($template, time, $zone);
 	print strftime($template, @lt, $zone);
 	

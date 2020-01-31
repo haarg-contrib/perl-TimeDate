@@ -30,6 +30,7 @@ our @Dsuf = ('.') x 31;
 # doesn't look like this is normally used...
 our @AMPM = qw(ap ip);
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));

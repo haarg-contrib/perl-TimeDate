@@ -24,6 +24,7 @@ our @AMPM = qw(ÉÏÎç ÏÂÎç);
 
 our @Dsuf = (qw(ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ ÈÕ)) x 3;
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));

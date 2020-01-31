@@ -7,9 +7,10 @@ package Date::Language::Bulgarian;
 use strict;
 use warnings;
 use utf8;
+
 use base qw(Date::Language);
 
-our (@DoW, @DoWs, @MoY, @MoYs, @AMPM, @Dsuf, %MoY, %DoW, $VERSION);
+our (@DoW, @DoWs, @MoY, @MoYs, @AMPM, @Dsuf, %MoY, %DoW);
 
 # VERSION: generated
 # ABSTRACT: Bulgarian localization for Date::Format

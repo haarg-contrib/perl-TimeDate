@@ -24,6 +24,7 @@ our @AMPM = qw(AM PM);
 
 our @Dsuf = (qw(mo ro do ro to to to mo vo no)) x 3;
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));

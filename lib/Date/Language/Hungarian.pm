@@ -63,6 +63,7 @@ our @AMPM = qw(DE. DU.);
 # There is no 'th or 'nd in Hungarian, just a dot
 our @Dsuf = (".") x 31;
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));
