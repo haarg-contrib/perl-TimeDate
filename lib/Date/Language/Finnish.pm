@@ -10,11 +10,9 @@ use strict;
 use warnings;
 use utf8;
 
-use Date::Language ();
+use base 'Date::Language';
 
 # VERSION: generated
-
-our @ISA = qw(Date::Language);
 
 # In Finnish, the names of the months and days are only capitalized at the beginning of sentences.
 our @MoY  = map($_ . "kuu", qw(tammi helmi maalis huhti touko kesä heinä elo syys loka marras joulu));

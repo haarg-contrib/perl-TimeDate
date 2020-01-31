@@ -11,7 +11,8 @@ use utf8;
 use Date::Language ();
 use Date::Language::English ();
 
-our @ISA = qw(Date::Language);
+use base 'Date::Language';
+
 # VERSION: generated
 
 our @MoY  = qw(Januar Februar März April Mai Juni

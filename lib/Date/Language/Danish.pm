@@ -8,12 +8,12 @@ use strict;
 use warnings;
 use utf8;
 
-use Date::Language ();
+use base 'Date::Language';
+
 use Date::Language::English ();
 
 # VERSION: generated
 
-our @ISA = qw(Date::Language);
 our @MoY  = qw(Januar Februar Marts April Maj Juni
 our 	   Juli August September Oktober November December);
 our @MoYs = qw(Jan Feb Mar Apr Maj Jun Jul Aug Sep Okt Nov Dec);

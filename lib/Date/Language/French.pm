@@ -9,10 +9,9 @@ use warnings;
 use utf8;
 
 use Date::Language ();
+use base 'Date::Language';
 
 # VERSION: generated
-
-our @ISA = qw(Date::Language);
 
 our @DoW = qw(dimanche lundi mardi mercredi jeudi vendredi samedi);
 our @MoY = qw(janvier février mars avril mai juin 

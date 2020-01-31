@@ -9,9 +9,9 @@ use strict;
 use warnings;
 use utf8;
 
-# VERSION: generated
+use base qw(Date::Language Date::Format::Generic);
 
-our @ISA = qw(Date::Language Date::Format::Generic);
+# VERSION: generated
 
 our @MoY = qw(leden únor bøezen duben kvìten èerven èervenec srpen záøí
 	      øíjen listopad prosinec);
