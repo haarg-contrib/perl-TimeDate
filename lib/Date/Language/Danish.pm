@@ -23,6 +23,7 @@ our @DoWs = qw(Søn Man Tir Ons Tor Fre Lør Søn);
 our @AMPM =   @{Date::Language::English::AMPM};
 our @Dsuf =   @{Date::Language::English::Dsuf};
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));
