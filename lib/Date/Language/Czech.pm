@@ -5,21 +5,25 @@
 
 package Date::Language::Czech;
 
-use vars qw(@ISA @DoW @DoWs @MoY @MoYs @MoY2 @AMPM %MoY %DoW $VERSION);
-@ISA = qw(Date::Language Date::Format::Generic);
+use strict;
+use warnings;
+use utf8;
+
 # VERSION: generated
 
-@MoY = qw(leden únor bøezen duben kvìten èerven èervenec srpen záøí
-	      øíjen listopad prosinec);
-@MoYs = qw(led únor bøe dub kvì èvn èec srp záøí øíj lis pro);
-@MoY2 = @MoY;
+our @ISA = qw(Date::Language Date::Format::Generic);
+
+our @MoY = qw(leden Ãºnor bÃ¸ezen duben kvÃ¬ten Ã¨erven Ã¨ervenec srpen zÃ¡Ã¸Ã­
+	      Ã¸Ã­jen listopad prosinec);
+our @MoYs = qw(led Ãºnor bÃ¸e dub kvÃ¬ Ã¨vn Ã¨ec srp zÃ¡Ã¸Ã­ Ã¸Ã­j lis pro);
+our @MoY2 = @MoY;
 for (@MoY2)
       { s!en$!na! or s!ec$!ce! or s!ad$!adu! or s!or$!ora!; }
 
-@DoW = qw(nedìle pondìlí úterý støeda ètvrtek pátek sobota);
-@DoWs = qw(Ne Po Út St Èt Pá So);
+our @DoW = qw(nedÃ¬le pondÃ¬lÃ­ ÃºterÃ½ stÃ¸eda Ã¨tvrtek pÃ¡tek sobota);
+our @DoWs = qw(Ne Po Ãšt St Ãˆt PÃ¡ So);
 
-@AMPM = qw(dop. odp.);
+our @AMPM = qw(dop. odp.);
 
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
