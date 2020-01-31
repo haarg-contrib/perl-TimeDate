@@ -23,6 +23,7 @@ $MoYs[6] = 'jul';
 our @AMPM = qw(AM PM);
 our @Dsuf = ((qw(er e e e e e e e e e)) x 3, 'er');
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));

@@ -46,7 +46,7 @@ Date::Format - Date formating subroutines
 
 	use Date::Format;
 	
-	@lt = localtime(time);
+	my @lt = localtime(time);
 	
 	print time2str($template, time);
 	print strftime($template, @lt);

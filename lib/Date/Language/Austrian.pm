@@ -26,6 +26,7 @@ our @DoWs = qw(Son Mon Die Mit Don Fre Sam);
 our @AMPM = @{Date::Language::English::AMPM};
 our @Dsuf = @{Date::Language::English::Dsuf};
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));
