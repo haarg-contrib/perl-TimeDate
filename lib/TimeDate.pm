@@ -1,8 +1,7 @@
 package TimeDate;
 
-use vars qw($VERSION);
-
 # VERSION: generated
+# ABSTRACT: Date and time formating subroutines
 
 =pod
 
