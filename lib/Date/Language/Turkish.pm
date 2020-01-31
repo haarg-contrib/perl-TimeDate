@@ -14,6 +14,7 @@ package Date::Language::Turkish;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Turkish localization for Date::Format
 
 our @DoW = qw(Pazar Pazartesi Salý Çarþamba Perþembe Cuma Cumartesi);
 our @MoY = qw(Ocak Þubat Mart  Nisan Mayýs Haziran Temmuz Aðustos Eylül Ekim Kasým Aralýk);
