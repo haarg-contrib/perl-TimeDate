@@ -7,7 +7,9 @@ package Date::Language::TigrinyaEthiopian;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: TigrinyaEthiopian localization for Date::Format
 
 if ( $] >= 5.006 ) {
 @DoW = (

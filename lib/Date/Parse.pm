@@ -16,6 +16,7 @@ use Exporter;
 @EXPORT = qw(&strtotime &str2time &strptime);
 
 # VERSION: generated
+# ABSTRACT: Parse date strings into time values
 
 my %month = (
 	january		=> 0,
