@@ -4,10 +4,12 @@
 
 package Date::Language::English;
 
-use Date::Language ();
-use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
-@ISA = qw(Date::Language);
+use base 'Date::Language';
+
+use vars qw(@DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
+
 # VERSION: generated
+# ABSTRACT: English localization for Date::Format
 
 @DoW = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
 @MoY = qw(January February March April May June
