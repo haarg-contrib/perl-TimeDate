@@ -46,19 +46,21 @@ Made available under the same terms as Perl itself.
 
 use strict;
 use warnings;
+use utf8;
+
 use base "Date::Language";
-use vars qw( @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
+
 # VERSION: generated
 
-@DoW = qw(Vasárnap Hétfõ Kedd Szerda Csütörtök Péntek Szombat);
-@MoY = qw(Január Február Március Április Május Június
-	  Július Augusztus Szeptember Október November December);
-@DoWs = map { substr($_,0,3) } @DoW;
-@MoYs = map { substr($_,0,3) } @MoY;
-@AMPM = qw(DE. DU.);
+our @DoW = qw(VasÃ¡rnap HÃ©tfÃµ Kedd Szerda CsÃ¼tÃ¶rtÃ¶k PÃ©ntek Szombat);
+our @MoY = qw(JanuÃ¡r FebruÃ¡r MÃ¡rcius Ãprilis MÃ¡jus JÃºnius
+	  JÃºlius Augusztus Szeptember OktÃ³ber November December);
+our @DoWs = map { substr($_,0,3) } @DoW;
+our @MoYs = map { substr($_,0,3) } @MoY;
+our @AMPM = qw(DE. DU.);
 
 # There is no 'th or 'nd in Hungarian, just a dot
-@Dsuf = (".") x 31;
+our @Dsuf = (".") x 31;
 
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
@@ -75,8 +77,6 @@ sub format_h { $MoYs[$_[0]->[4]] }
 sub format_p { $_[0]->[2] >= 12 ?  $AMPM[1] : $AMPM[0] }
 sub format_P { lc($_[0]->[2] >= 12 ?  $AMPM[1] : $AMPM[0]) }
 sub format_o { $_[0]->[3].'.' }
-
-
 
 sub format_D { &format_y . "." . &format_m . "." . &format_d  }
 

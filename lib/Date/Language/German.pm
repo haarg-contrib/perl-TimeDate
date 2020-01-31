@@ -4,20 +4,24 @@
 
 package Date::Language::German;
 
+use strict;
+use warnings;
+use utf8;
+
 use Date::Language ();
-use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
-@ISA = qw(Date::Language);
+use Date::Language::English ();
+
+our @ISA = qw(Date::Language);
 # VERSION: generated
 
-@MoY  = qw(Januar Februar März April Mai Juni
+our @MoY  = qw(Januar Februar MÃ¤rz April Mai Juni
 	   Juli August September Oktober November Dezember);
-@MoYs = qw(Jan Feb Mär Apr Mai Jun Jul Aug Sep Okt Nov Dez);
-@DoW  = qw(Sonntag Montag Dienstag Mittwoch Donnerstag Freitag Samstag);
-@DoWs = qw(Son Mon Die Mit Don Fre Sam);
+our @MoYs = qw(Jan Feb MÃ¤r Apr Mai Jun Jul Aug Sep Okt Nov Dez);
+our @DoW  = qw(Sonntag Montag Dienstag Mittwoch Donnerstag Freitag Samstag);
+our @DoWs = qw(Son Mon Die Mit Don Fre Sam);
 
-use Date::Language::English ();
-@AMPM =   @{Date::Language::English::AMPM};
-@Dsuf =   @{Date::Language::English::Dsuf};
+our @AMPM =   @{Date::Language::English::AMPM};
+our @Dsuf =   @{Date::Language::English::Dsuf};
 
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
