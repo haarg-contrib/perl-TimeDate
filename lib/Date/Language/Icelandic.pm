@@ -13,6 +13,7 @@ use base 'Date::Language';
 use Date::Language::English ();
 
 # VERSION: generated
+# ABSTRACT: Icelandic localization for Date::Format
 
 our @MoY  = qw(Janúar Febrúar Mars Apríl Maí Júni
 	   Júli Ágúst September Október Nóvember Desember);

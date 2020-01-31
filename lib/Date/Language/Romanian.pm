@@ -7,7 +7,9 @@ package Date::Language::Romanian;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Romanian localization for Date::Format
 
 @MoY  = qw(ianuarie februarie martie aprilie mai iunie 
 		iulie august septembrie octombrie noembrie decembrie);

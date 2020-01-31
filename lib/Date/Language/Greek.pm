@@ -12,10 +12,13 @@
 package Date::Language::Greek;
 
 use utf8;
+
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Greek localization for Date::Format
 
 @DoW = (
 "\x{039a}\x{03c5}\x{03c1}\x{03b9}\x{03b1}\x{03ba}\x{03ae}",

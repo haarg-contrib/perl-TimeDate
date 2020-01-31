@@ -7,7 +7,9 @@ package Date::Language::Occitan;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Occitan localization for Date::Format
 
 @DoW = qw(dimenge diluns dimars dimècres dijòus divendres dissabte);
 @MoY = qw(genièr febrièr mars abrial mai junh 

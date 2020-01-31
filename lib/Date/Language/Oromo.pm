@@ -7,7 +7,9 @@ package Date::Language::Oromo;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Oromo localization for Date::Format
 
 @DoW = qw(Dilbata Wiixata Qibxata Roobii Kamiisa Jimaata Sanbata);
 @MoY = qw(Amajjii Guraandhala Bitooteessa Elba Caamsa Waxabajjii
