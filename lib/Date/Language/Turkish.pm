@@ -14,7 +14,7 @@ package Date::Language::Turkish;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION %DsufMAP);
 @ISA     = qw(Date::Language);
-$VERSION = "1.0";
+# VERSION: generated
 
 @DoW = qw(Pazar Pazartesi Salý Çarþamba Perþembe Cuma Cumartesi);
 @MoY = qw(Ocak Þubat Mart  Nisan Mayýs Haziran Temmuz Aðustos Eylül Ekim Kasým Aralýk);

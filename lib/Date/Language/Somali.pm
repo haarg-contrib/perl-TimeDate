@@ -7,7 +7,7 @@ package Date::Language::Somali;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
-$VERSION = "0.99";
+# VERSION: generated
 
 @DoW = qw(Axad Isniin Salaaso Arbaco Khamiis Jimco Sabti);
 @MoY = (

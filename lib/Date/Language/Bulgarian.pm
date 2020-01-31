@@ -8,7 +8,7 @@ use warnings;
 use utf8;
 use base qw(Date::Language);
 our (@DoW, @DoWs, @MoY, @MoYs, @AMPM, @Dsuf, %MoY, %DoW, $VERSION);
-$VERSION = "1.01";
+# VERSION: generated
 
 @DoW = qw(неделя понеделник вторник сряда четвъртък петък събота);
 @MoY = qw(януари февруари март април май юни

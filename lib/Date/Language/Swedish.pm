@@ -9,7 +9,7 @@ package Date::Language::Swedish;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
-$VERSION = "1.01";
+# VERSION: generated
 
 @MoY  = qw(januari februari mars april maj juni juli augusti september oktober november december);
 @MoYs = map { substr($_,0,3) } @MoY;

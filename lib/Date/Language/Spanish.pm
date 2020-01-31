@@ -7,7 +7,7 @@ package Date::Language::Spanish;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
-$VERSION = "1.00";
+# VERSION: generated
 
 @DoW = qw(domingo lunes martes miércoles jueves viernes sábado);
 @MoY = qw(enero febrero marzo abril mayo junio

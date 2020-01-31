@@ -7,7 +7,7 @@ use     Carp;
 use     vars qw($VERSION @ISA);
 require Date::Format;
 
-$VERSION = "1.10";
+# VERSION: generated
 @ISA     = qw(Date::Format::Generic);
 
 sub new

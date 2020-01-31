@@ -7,7 +7,7 @@ package Date::Language::Russian_koi8r;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
-$VERSION = "1.01";
+# VERSION: generated
 
 @DoW = qw(Воскресенье Понедельник Вторник Среда Четверг Пятница Суббота);
 @MoY = qw(Январь Февраль Март Апрель Май Июнь

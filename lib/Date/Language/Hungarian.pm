@@ -48,7 +48,7 @@ use strict;
 use warnings;
 use base "Date::Language";
 use vars qw( @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
-$VERSION = "1.01";
+# VERSION: generated
 
 @DoW = qw(Vasárnap Hétfõ Kedd Szerda Csütörtök Péntek Szombat);
 @MoY = qw(Január Február Március Április Május Június

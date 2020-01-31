@@ -8,7 +8,7 @@ package Date::Language::Dutch;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
-$VERSION = "1.02";
+# VERSION: generated
 
 @MoY  = qw(januari februari maart april mei juni juli
            augustus september oktober november december);

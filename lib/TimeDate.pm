@@ -2,7 +2,7 @@ package TimeDate;
 
 use vars qw($VERSION);
 
-$VERSION = "1.21";
+# VERSION: generated
 
 =pod
 

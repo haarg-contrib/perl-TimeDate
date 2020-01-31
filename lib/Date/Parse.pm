@@ -15,7 +15,7 @@ use Exporter;
 @ISA = qw(Exporter);
 @EXPORT = qw(&strtotime &str2time &strptime);
 
-$VERSION = "2.31";
+# VERSION: generated
 
 my %month = (
 	january		=> 0,

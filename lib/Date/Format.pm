@@ -8,7 +8,7 @@ use     strict;
 use     vars qw(@EXPORT @ISA $VERSION);
 require Exporter;
 
-$VERSION = "2.24";
+# VERSION: generated
 @ISA     = qw(Exporter);
 @EXPORT  = qw(time2str strftime ctime asctime);
 
