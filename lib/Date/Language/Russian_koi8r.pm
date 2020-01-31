@@ -11,6 +11,7 @@ use utf8;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Russian_koi8r localization for Date::Format
 
 our @DoW = qw(÷ÏÓËÒÅÓÅÎØÅ ðÏÎÅÄÅÌØÎÉË ÷ÔÏÒÎÉË óÒÅÄÁ þÅÔ×ÅÒÇ ðÑÔÎÉÃÁ óÕÂÂÏÔÁ);
 our @MoY = qw(ñÎ×ÁÒØ æÅ×ÒÁÌØ íÁÒÔ áÐÒÅÌØ íÁÊ éÀÎØ

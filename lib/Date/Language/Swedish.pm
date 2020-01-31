@@ -10,6 +10,7 @@ use base 'Date::Language';
 use Date::Language::English ();
 
 # VERSION: generated
+# ABSTRACT: Swedish localization for Date::Format
 
 our @MoY  = qw(januari februari mars april maj juni juli augusti september oktober november december);
 our @MoYs = map { substr($_,0,3) } @MoY;

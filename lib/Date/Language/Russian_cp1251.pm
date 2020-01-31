@@ -7,6 +7,7 @@ package Date::Language::Russian_cp1251;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Russian_cp1251 localization for Date::Format
 
 our @DoW = qw(Âîñêðåñåíüå Ïîíåäåëüíèê Âòîðíèê Ñðåäà ×åòâåðã Ïÿòíèöà Ñóááîòà);
 our @MoY = qw(ßíâàðü Ôåâðàëü Ìàðò Àïðåëü Ìàé Èþíü

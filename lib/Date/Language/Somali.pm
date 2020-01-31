@@ -7,7 +7,9 @@ package Date::Language::Somali;
 use Date::Language ();
 use vars qw(@ISA @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 @ISA = qw(Date::Language);
+
 # VERSION: generated
+# ABSTRACT: Somali localization for Date::Format
 
 @DoW = qw(Axad Isniin Salaaso Arbaco Khamiis Jimco Sabti);
 @MoY = (

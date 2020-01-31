@@ -12,6 +12,7 @@ use base 'Date::Language';
 use Date::Language::English ();
 
 # VERSION: generated
+# ABSTRACT: Norwegian localization for Date::Format
 
 our @MoY  = qw(Januar Februar Mars April Mai Juni
 	   Juli August September Oktober November Desember);

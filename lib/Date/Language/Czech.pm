@@ -12,6 +12,7 @@ use utf8;
 use base qw(Date::Language Date::Format::Generic);
 
 # VERSION: generated
+# ABSTRACT: Czech localization for Date::Format
 
 our @MoY = qw(leden únor bøezen duben kvìten èerven èervenec srpen záøí
 	      øíjen listopad prosinec);

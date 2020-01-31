@@ -11,6 +11,7 @@ use utf8;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Spanish localization for Date::Format
 
 our @DoW = qw(domingo lunes martes miércoles jueves viernes sábado);
 our @MoY = qw(enero febrero marzo abril mayo junio

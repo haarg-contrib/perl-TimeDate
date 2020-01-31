@@ -51,6 +51,7 @@ use utf8;
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: Hungarian localization for Date::Format
 
 our @DoW = qw(Vasárnap Hétfõ Kedd Szerda Csütörtök Péntek Szombat);
 our @MoY = qw(Január Február Március Április Május Június

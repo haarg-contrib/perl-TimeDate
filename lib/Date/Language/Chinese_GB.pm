@@ -11,6 +11,7 @@ use warnings;
 use utf8;
 
 # VERSION: generated
+# ABSTRACT: Chinese_GB localization for Date::Format
 
 our @ISA = qw(Date::Language);
 

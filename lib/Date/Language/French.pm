@@ -12,6 +12,7 @@ use Date::Language ();
 use base 'Date::Language';
 
 # VERSION: generated
+# ABSTRACT: French localization for Date::Format
 
 our @DoW = qw(dimanche lundi mardi mercredi jeudi vendredi samedi);
 our @MoY = qw(janvier février mars avril mai juin 
