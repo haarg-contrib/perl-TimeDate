@@ -24,13 +24,13 @@ sub strftime ($\@;$)
 
 sub ctime ($;$)
 {
- my($t,$tz) = @_;
+ my ($t,$tz) = @_;
  Date::Format::Generic->time2str("%a %b %e %T %Y\n", $t, $tz); 
 }
 
 sub asctime (\@;$)
 {
- my($t,$tz) = @_;
+ my ($t,$tz) = @_;
  Date::Format::Generic->strftime("%a %b %e %T %Y\n", $t, $tz); 
 }
 

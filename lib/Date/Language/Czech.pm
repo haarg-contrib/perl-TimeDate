@@ -25,6 +25,7 @@ our @DoWs = qw(Ne Po Út St Èt Pá So);
 
 our @AMPM = qw(dop. odp.);
 
+our ( %MoY, %DoW );
 @MoY{@MoY}  = (0 .. scalar(@MoY));
 @MoY{@MoYs} = (0 .. scalar(@MoYs));
 @DoW{@DoW}  = (0 .. scalar(@DoW));
