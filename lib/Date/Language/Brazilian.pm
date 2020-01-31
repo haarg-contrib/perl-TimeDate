@@ -11,6 +11,7 @@ use utf8;
 use Date::Language ();
 
 # VERSION: generated
+# ABSTRACT: Brazilian localization for Date::Format
 
 our @ISA = qw(Date::Language);
 

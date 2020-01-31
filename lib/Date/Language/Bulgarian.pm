@@ -3,12 +3,16 @@
 ##
 
 package Date::Language::Bulgarian;
+
 use strict;
 use warnings;
 use utf8;
 use base qw(Date::Language);
+
 our (@DoW, @DoWs, @MoY, @MoYs, @AMPM, @Dsuf, %MoY, %DoW, $VERSION);
+
 # VERSION: generated
+# ABSTRACT: Bulgarian localization for Date::Format
 
 @DoW = qw(неделя понеделник вторник сряда четвъртък петък събота);
 @MoY = qw(януари февруари март април май юни
