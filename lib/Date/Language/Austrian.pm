@@ -12,6 +12,7 @@ use Date::Language ();
 use Date::Language::English ();
 
 # VERSION: generated
+# ABSTRACT: Austrian localization for Date::Format
 
 our @ISA = qw(Date::Language);
 
