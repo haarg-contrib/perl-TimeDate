@@ -354,12 +354,6 @@ Below is a sample list of dates that are known to be parsable with Date::Parse
  1999 10:02:18 "GMT"
  16 Nov 94 22:28:20 PST 
 
-=head1 LIMITATION
-
-Date::Parse uses L<Time::Local> internally, so is limited to only parsing dates
-which result in valid values for Time::Local::timelocal. This generally means dates
-between 1901-12-17 00:00:00 GMT and 2038-01-16 23:59:59 GMT
-
 =head1 BUGS
 
 When both the month and the date are specified in the date as numbers
